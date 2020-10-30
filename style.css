@@ -179,3 +179,7 @@ form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] .text {
 form[action="https://go.pardot.com/l/871351/2020-10-23/mkr574"] {
   text-align: center;
 }
+
+form[action="https://go.pardot.com/l/871351/2020-10-29/mksy1x"] input[type="submit" i] {
+  width: 100%;
+}

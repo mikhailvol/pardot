@@ -51,17 +51,17 @@ body {
 
 /*Textarea*/
 .standard {
-    min-height: 136px;
-    margin-bottom: 16px;
-    padding-top: 14px;
-    padding-right: 16px;
-    padding-left: 16px;
-    border: 1px solid #cfd8dc;
-    border-radius: 4px;
-    font-size: 16px;
-    line-height: 1.26em;
-    height: 136px;
-    width: 100%;
+  min-height: 136px;
+  margin-bottom: 16px;
+  padding-top: 14px;
+  padding-right: 16px;
+  padding-left: 16px;
+  border: 1px solid #cfd8dc;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.26em;
+  height: 136px;
+  width: 100%;
 }
 
 /*Submit btn*/
@@ -81,6 +81,7 @@ input[type="submit" i] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  text-transform: uppercase;
 }
 
 input[type="submit" i]:hover {

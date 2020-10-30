@@ -19,11 +19,11 @@ body {
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
- color: #546e7a;
+  color: #546e7a;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
- color: #546e7a;
+  color: #546e7a;
 }
 
 .form p {
@@ -33,9 +33,10 @@ body {
 
 /*Form heading*/
 h5 {
-    color: #263238;
-    font-size: 18px;
-    margin: 0 0 20px 0;
+  color: #263238;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+  font-weight: 500;
 }
 
 /*Input*/
@@ -96,7 +97,7 @@ input[type="submit" i]:hover {
 }
 
 input[type="submit" i]:focus {
-    outline: none;
+  outline: none;
 }
 
 .field-label {
@@ -106,7 +107,7 @@ input[type="submit" i]:focus {
 
 /*Errors*/
 .errors {
-    display: none;
+  display: none;
 }
 
 #main-cta-iframe .form {
@@ -129,7 +130,7 @@ p.error.no-label {
 }
 
 p.form-field.hidden {
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 432px) {

@@ -191,8 +191,8 @@ form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] p.error.no-label
     position: static;
   }
   
-  form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] .form,
-  form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] .form {
+  form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"],
+  form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;

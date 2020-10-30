@@ -165,7 +165,7 @@ p.form-field.hidden {
 
 /* Vertical forms */
 form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5bq"] input[type="submit"],
-form[action~="https://go.pardot.com/l/871351/2020-10-29/mksy1x"] input[type="submit" i],
+form[action^="https://go.pardot.com/l/871351/2020-10-29/mksy1x"] input[type="submit" i],
 form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5sx"] input[type="submit"]{
   width: 100%;
 }

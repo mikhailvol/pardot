@@ -155,3 +155,16 @@ p.form-field.hidden {
 form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5bq"] input[type="submit"] {
   width: 100%;
 }
+
+form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] form#pardot-form {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] .text {
+  width: calc(100% - 12px);
+  margin-bottom: 0;
+}

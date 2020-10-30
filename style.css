@@ -138,6 +138,15 @@ p.form-field.hidden {
   display: none;
 }
 
+iframe[Attributes Style] {
+  width: 100%;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  height: auto !important;
+}
+
 @media screen and (max-width: 432px) {
   .form {
     -webkit-flex-direction: column;

@@ -138,13 +138,10 @@ p.form-field.hidden {
   display: none;
 }
 
-iframe[Attributes Style] {
-  width: 100%;
-  border-top-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 0px;
-  border-left-width: 0px;
-  height: auto !important;
+.form-desc {
+  margin-top: -12px;
+  margin-bottom: 16px;
+  color: #455a64;
 }
 
 @media screen and (max-width: 432px) {

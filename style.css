@@ -139,8 +139,8 @@ p.form-field.hidden {
 }
 
 .form-desc {
-  margin-top: -12px;
-  margin-bottom: 16px;
+  margin-top: -12px !important;
+  margin-bottom: 16px !important;
   color: #455a64;
 }
 

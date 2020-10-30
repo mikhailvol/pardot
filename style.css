@@ -195,7 +195,7 @@ form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] p.error.no-label
 
 @media screen and (max-width: 595px) {
   form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] p.error.no-label {
-    margin: 4px 0 12px 0;
+    margin: -12px 0 6px 0;
     position: static;
   }
   

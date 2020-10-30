@@ -72,6 +72,11 @@ h5 {
   width: 100%;
 }
 
+.standart:focus {
+  border: 1px solid #3898EC;
+  outline: none;
+}
+
 /*Submit btn*/
 input[type="submit" i] {
   padding: 16px 24px;

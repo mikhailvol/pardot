@@ -144,19 +144,6 @@ p.form-field.hidden {
   color: #455a64;
 }
 
-@media screen and (max-width: 432px) {
-  .form {
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-  
-  .text {
-    width: 100%;
-    margin-bottom: 12px;
-  }
-}
-
 /* Vertical forms */
 form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5bq"] input[type="submit"],
 form[action*="https://go.pardot.com/l/871351/2020-10-29/mksy1x"] input[type="submit" i],
@@ -182,11 +169,13 @@ form[action="https://go.pardot.com/l/871351/2020-10-23/mkr574"] {
   text-align: center;
 }
 
-form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] html {
+form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] html,
+form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] html {
   overflow: hidden;
 }
 
-form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] p.error.no-label {
+form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] p.error.no-label,
+form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] p.error.no-label {
   margin: 0;
   position: absolute;
   bottom: 1px;
@@ -194,12 +183,21 @@ form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] p.error.no-label
 }
 
 @media screen and (max-width: 447px) {
-  form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] p.error.no-label {
+  form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] p.error.no-label,
+  form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] p.error.no-label {
     margin: -12px 0 6px 0;
     position: static;
   }
   
-  form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] .text {
+  form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] .form,
+  form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] .form {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  
+  form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] .text,
+  form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] .text {
     width: 100%;
     margin-bottom: 16px;
   }

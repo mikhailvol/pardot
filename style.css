@@ -175,3 +175,7 @@ form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] .text {
   width: calc(100% - 12px);
   margin-bottom: 0;
 }
+
+form[action="https://go.pardot.com/l/871351/2020-10-23/mkr574"] {
+  text-align: center;
+}

@@ -155,12 +155,6 @@ p.form-field.hidden {
     width: 100%;
     margin-bottom: 12px;
   }
-  
-  /*p.error.no-label {
-    position: static;
-    margin-top: -8px;
-    margin-bottom: 4px;
-  }*/
 }
 
 /* Vertical forms */
@@ -187,3 +181,20 @@ form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] .text {
 form[action="https://go.pardot.com/l/871351/2020-10-23/mkr574"] {
   text-align: center;
 }
+
+form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] html {
+  overflow: hidden;
+}
+
+form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] p.error.no-label {
+  margin: 0;
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+}
+
+@media screen and (max-width: 432px) {
+  form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] p.error.no-label {
+  margin: 4px 0 12px 0;
+  position: static;
+  }

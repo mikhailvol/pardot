@@ -117,11 +117,15 @@ input[type="submit" i]:focus {
 }
 
 p.error.no-label {
-    width: auto;
-    color: #d20909;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.02em;
+  width: auto;
+  color: #d20909;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1em;
+  padding: 0;
+  margin-top: -12px;
+  margin-bottom: 12px;
 }
 
 p.form-field.hidden {

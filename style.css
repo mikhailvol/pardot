@@ -153,7 +153,8 @@ form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5sx"] input[type="subm
 
 /* Horizontal forms */
 form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"],
-form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] {
+form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"],
+form[action="https://go.pardot.com/l/871351/2020-11-01/mkzffv"] {
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -161,7 +162,6 @@ form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] {
   display: flex;
 }
 
-/* Horizontal fomrs */
 form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] .text,
 form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] .text,
 form[action="https://go.pardot.com/l/871351/2020-11-01/mkzffv"] .text {

@@ -161,23 +161,23 @@ form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] {
   display: flex;
 }
 
+/* Horizontal fomrs */
 form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] .text,
-form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] .text {
+form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] .text,
+form[action="https://go.pardot.com/l/871351/2020-11-01/mkzffv"] .text {
   width: calc(100% - 12px);
   margin-bottom: 0;
 }
 
-form[action="https://go.pardot.com/l/871351/2020-10-23/mkr574"] {
-  text-align: center;
-}
-
 form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] html,
-form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] html {
+form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] html,
+form[action="https://go.pardot.com/l/871351/2020-11-01/mkzffv"] html {
   overflow: hidden;
 }
 
 form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] p.error.no-label,
-form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] p.error.no-label {
+form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] p.error.no-label,
+form[action="https://go.pardot.com/l/871351/2020-11-01/mkzffv"] p.error.no-label {
   margin: 0;
   position: absolute;
   bottom: 1px;
@@ -186,21 +186,29 @@ form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] p.error.no-label
 
 @media screen and (max-width: 447px) {
   form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] p.error.no-label,
-  form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] p.error.no-label {
+  form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] p.error.no-label,
+  form[action="https://go.pardot.com/l/871351/2020-11-01/mkzffv"] p.error.no-label {
     margin: -12px 0 6px 0;
     position: static;
   }
   
   form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"],
-  form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] {
+  form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"],
+  form[action="https://go.pardot.com/l/871351/2020-11-01/mkzffv"] {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
   }
   
   form[action="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] .text,
-  form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] .text {
+  form[action="https://go.pardot.com/l/871351/2020-10-23/mkr5md"] .text,
+  form[action="https://go.pardot.com/l/871351/2020-11-01/mkzffv"] .text{
     width: 100%;
     margin-bottom: 16px;
   }
+}
+
+/* Other forms customs */
+form[action="https://go.pardot.com/l/871351/2020-10-23/mkr574"] {
+  text-align: center;
 }

@@ -105,6 +105,11 @@ input[type="submit" i]:focus {
   outline: none;
 }
 
+/* Enterprise submit btn */
+#e-btn {
+  background-color: #003777;
+}
+
 .field-label {
   display: none;
 }

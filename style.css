@@ -110,6 +110,10 @@ input[type="submit" i]:focus {
   background-color: #003777;
 }
 
+#e-btn:hover {
+  background-color: #1c72c8;
+}
+
 .field-label {
   display: none;
 }

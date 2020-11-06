@@ -118,6 +118,13 @@ input[type="submit" i]:focus {
   display: none;
 }
 
+/* Spinner */
+.submit--spinner {
+  background-image: url(https://mikhailvol.github.io/pardot/three-dots.svg);
+  background-position: 50% 50%;
+  background-size: 40px;
+  background-repeat: no-repeat;
+}
 
 /*Errors*/
 .errors {

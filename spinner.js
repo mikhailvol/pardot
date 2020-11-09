@@ -7,4 +7,4 @@ document.addEventListener('DOMContentLoaded', function() {
                     submitBtn.classList.add("submit--spinner");
                 };
             };
-        };
+        });

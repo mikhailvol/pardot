@@ -171,7 +171,8 @@ form[action*="https://go.pardot.com/l/871351/2020-10-23/mkr5sx"] input[type="sub
 /* Horizontal forms */
 form[action*="https://go.pardot.com/l/871351/2020-10-23/mkr65j"],
 form[action*="https://go.pardot.com/l/871351/2020-10-23/mkr5md"],
-form[action*="https://go.pardot.com/l/871351/2020-11-01/mkzffv"] {
+form[action*="https://go.pardot.com/l/871351/2020-11-01/mkzffv"], 
+form[action*="//go.pardot.com/l/871351/2020-11-25/mlt768"] {
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;

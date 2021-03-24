@@ -211,9 +211,9 @@ form[action*="https://go.pardot.com/l/871351/2021-03-24/ms1bgl"] p.error.no-labe
 }
 
 /* Download form */
-form[action*="https://go.pardot.com/l/871351/2021-03-24/ms1bgl"] p {
+/*form[action*="https://go.pardot.com/l/871351/2021-03-24/ms1bgl"] p {
   width: auto;
-}
+}*/
 
 form[action*="https://go.pardot.com/l/871351/2021-03-24/ms1bgl"] {
   -webkit-box-pack: justify;

@@ -215,6 +215,17 @@ form[action*="https://go.pardot.com/l/871351/2021-03-24/ms1bgl"] form p {
   width: auto;
 }
 
+form[action*="https://go.pardot.com/l/871351/2021-03-24/ms1bgl"] {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 447px) {
   form[action*="https://go.pardot.com/l/871351/2021-03-03/mqgzyc"] p.error.no-label,
   form[action*="https://go.pardot.com/l/871351/2020-10-23/mkr65j"] p.error.no-label,

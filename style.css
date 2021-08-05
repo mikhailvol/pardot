@@ -166,6 +166,8 @@ p.form-field.hidden {
 form[action*="https://go.pardot.com/l/871351/2020-10-23/mkr5bq"] input[type="submit"],
 form[action*="https://go.pardot.com/l/871351/2020-10-29/mksy1x"] input[type="submit" i],
 form[action*="https://go.pardot.com/l/871351/2020-10-23/mkr5sx"] input[type="submit"],
+/* added for bulls form */
+form[action*="http://go.pardot.com/l/871351/2021-08-05/n3w1gw"] input[type="submit"],
 form[action*="//go.pardot.com/l/871351/2020-11-25/mlt768"] input[type="submit"] {
   width: 100%;
 }
